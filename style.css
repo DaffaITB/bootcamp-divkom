@@ -1,0 +1,66 @@
+body {
+    margin: 0px; /* biar elemen lain sampe pinggir*/
+    background-color: cornsilk;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: peachpuff;
+}
+
+.foto {
+    width: 100px;
+}
+.nama {
+    /* display: inline; */
+    /* background-color: skyblue; */
+    margin-left: 20px;
+}
+
+.container {
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+        "education organization skill";
+    gap: 5px;
+    padding: 6px;
+    max-width: 1000px;
+    background-color: peachpuff;
+}
+
+.education {
+    grid-area: education;
+    padding-left: 15px;
+    background-color: pink;
+}
+
+.organization {
+    grid-area: organization;
+    padding-left: 15px;
+    background-color: salmon;
+}
+
+.skill {
+    grid-area: skill;
+    padding-left: 15px;
+    background-color: plum;
+}
+
+.icon {
+    max-width: 50px;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: papayawhip;
+}
+
+h4 {
+    text-align: center;
+}
