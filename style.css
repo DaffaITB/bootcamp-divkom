@@ -48,9 +48,21 @@ header {
     background-color: plum;
 }
 
-.icon {
+.icon_S {
+    max-width: 30px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+
+.icon_M {
     max-width: 50px;
     padding-bottom: 20px;
+}
+
+.icon_L {
+    max-width: 70px;
+    padding-bottom: 5px;
 }
 
 footer {
