@@ -1,5 +1,11 @@
-git init
-git add .
-git commit -m "something"
+setup
+    git init
 
-git branch
+loop
+    git add .
+    git commit -m "something"
+
+
+
+another fiture
+    git branch

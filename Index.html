@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,24 @@
 
 <body>
     <header>
-        <img class="foto" src="Ancien.png" alt="foto-profile">
-        <h1 class="nama">Ancien Heart</h1>
+        <div style="display: flex">
+            <img class="foto" src="Ancien.png" alt="foto-profile" >
+            <h1 class="nama">Ancien Heart</h1>
+        </div>
+        <button
+            style="display: block"
+            id="buttonDark"
+            onclick="DarkMode()"
+        >
+         dark mode
+        </button>
+        <button
+            style="display: none"
+            id="buttonLight"
+            onclick="LightMode()"
+        >
+         light mode
+        </button>
         <!-- <img class="foto" src="icon menu.png" alt="foto-profile"> -->
     </header>
 
@@ -55,3 +72,6 @@
 </footer>
 
 </html>
+
+
+<script src="script/main.js"></script>
